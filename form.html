@@ -17,6 +17,11 @@
 </head>
 
 <body>
+
+    <div class="header">
+        <h1>(org)anizer</h1>
+    </div>
+
     <div id="wrapper">
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
@@ -37,62 +42,141 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="box events rounded">
-                                <h1 class="headline">Upcoming Events:</h1>
-                                <h3 class="subhead">Blue Wave Bowling</h3>
-                                <ul class="event-info">
-                                    <li>Time: 6-8pm</li>
-                                    <li>Location: Union Underground</li>
-                                </ul>
-                            </div>
-                            <div class="box events rounded">
-                                <h1 class="headline">Upcoming Events:</h1>
-                                <h3 class="subhead">Blue Wave Bowling</h3>
-                                <ul class="event-info">
-                                    <li>Time: 6-8pm</li>
-                                    <li>Location: Union Underground</li>
-                                </ul>
-                            </div>
-                            <div class="box events rounded">
-                                <h1 class="headline">Upcoming Events:</h1>
-                                <h3 class="subhead">Blue Wave Bowling</h3>
-                                <ul class="event-info">
-                                    <li>Time: 6-8pm</li>
-                                    <li>Location: Union Underground</li>
-                                </ul>
-                            </div>
-                            <div class="box events rounded">
-                                <h1 class="headline">Upcoming Events:</h1>
-                                <h3 class="subhead">Blue Wave Bowling</h3>
-                                <ul class="event-info">
-                                    <li>Time: 6-8pm</li>
-                                    <li>Location: Union Underground</li>
-                                </ul>
-                            </div>
-                            <div class="box events rounded">
-                                <h1 class="headline">Upcoming Events:</h1>
-                                <h3 class="subhead">Blue Wave Bowling</h3>
-                                <ul class="event-info">
-                                    <li>Time: 6-8pm</li>
-                                    <li>Location: Union Underground</li>
-                                </ul>
-                            </div>
-                            <div class="box events rounded">
-                                <h1 class="headline">Upcoming Events:</h1>
-                                <h3 class="subhead">Blue Wave Bowling</h3>
-                                <ul class="event-info">
-                                    <li>Time: 6-8pm</li>
-                                    <li>Location: Union Underground</li>
-                                </ul>
-                            </div>
-                            <div class="box events rounded">
-                                <h1 class="headline">Upcoming Events:</h1>
-                                <h3 class="subhead">Blue Wave Bowling</h3>
-                                <ul class="event-info">
-                                    <li>Time: 6-8pm</li>
-                                    <li>Location: Union Underground</li>
-                                </ul>
-                            </div>
+                            <form action="/action_page.php">
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<h1>Event Planner</h1>
+								<br>
+								<h3>Use this form to help plan an event and remind you of important action items. Don't worry if you have to check "no" or leave something blank!</h3>
+								<br>
+								<br>
+								<div class="form-group">
+									<label for="event-title">Event Title:</label>
+									<input type="text" class="form-control" id="event-title">
+								</div>
+								<br>
+								<div class="form-group">
+									<label for="date">Date:</label>
+									<input type="date" class="form-control" id="date">
+								</div>
+								<br>
+								<div class="form-group">
+									<label for="time">Time:</label>
+									<input type="time" class="form-control" id="time">
+								</div>
+								<br>
+								<div class="form-group">
+									<label for="email">Contact:</label>
+									<input type="email" class="form-control" id="email">
+								</div>
+								<br>
+								<div class="form-group">
+									<label for="location">Location:</label>
+									<input type="text" class="form-control" id="location">
+								</div>
+								<br>
+								<div class="form-group">
+									<label for="event-description">Event Description:</label>
+									<input type="text" class="form-control" id="event-description">
+								</div>
+
+								<br>
+								<div class="form-group">
+								  <label for="transit-option">How are we getting there?</label>
+									<select class = "form-control" id="transit-option">
+										<option value="on-campus">On/Near Campus</option>
+										<option value="walking">Walking </option>
+										<option value="public-transit">Public Transit</option>
+										<option value="carpool">Carpool</option>
+									</select>
+								</div>
+								<br>
+								<div class="form-group">
+									<label>Have you organized transit for the event?</label>
+								</div>
+									<label class="radio-inline"><input type="radio" name="transit-organized">Yes</label>
+								<label class="radio-inline"><input type="radio" name="transit-organized"checked >No</label>
+									<br>
+									<br>
+								<div class="form-group">
+									<label>Is this event accessible?</label>
+								</div>
+									<label class="radio-inline"><input type="radio" name="accessible">Yes</label>
+								<label class="radio-inline"><input type="radio" name="accessible"checked >No</label>
+									<br>
+									<br>
+								<div class="form-group">
+									<label for="gn-bathroom">Where is the closest gender-neutral bathroom?</label>
+									<input type="text" class="form-control" id="gn-bathroom">
+								</div>
+								<br>
+								<div class="form-group">
+									<label for="accessability-roadblock">If this event is not accessible, what are the roadblocks?</label>
+									<input type="text" class="form-control" id="accessability-roadblock">
+								</div>
+								<br>
+								<div class="form-group">
+									<label for="event-cost">How much does it cost to participate in the event?</label>
+									<input type="text" class="form-control" id="event-cost">
+								</div>
+								<br>
+								<div class="form-group">
+									<label>Are we providing food as an org?</label>
+								</div>
+									<label class="radio-inline"><input type="radio" name="food">Yes</label>
+								<label class="radio-inline"><input type="radio" name="food"checked >No</label>
+								<br>
+								<br>
+								<div class="form-group">
+									<label>Does anyone in the org have a dietary restriction?</label>
+								</div>
+									<label class="radio-inline"><input type="radio" name="dietary-restriction">Yes</label>
+								<label class="radio-inline"><input type="radio" name="dietary-restriction"checked >No</label> 
+									<br>
+									<br>
+								<div class="form-group">
+									<label>Does anyone in the org have a food allergy?</label>
+								</div>
+									<label class="radio-inline"><input type="radio" name="food-allergy">Yes</label>
+									<label class="radio-inline"><input type="radio" name="food-allergy"checked >No</label>
+								<br>
+								<br>
+								<div class="form-group">
+									<label for="members-dietary-restrictions">Which members have allergies or restrictions?</label>
+									<input type="text" class="form-control" id="members-dietary-restrictions">
+								</div>
+								<br>
+								<div class="form-group">
+									<label>Have you addressed options for people with food restrictions?</label>
+								</div>
+									<label class="radio-inline"><input type="radio" name="addressed-food">Yes</label>
+									<label class="radio-inline"><input type="radio" name="addressed-food"checked >No</label>
+								<br>
+								<br>
+								<div class="form-group">
+									<label>Have you promoted the event on Facebook yet?</label>
+								</div>
+									<label class="radio-inline"><input type="radio" name="promoted">Yes</label>
+									<label class="radio-inline"><input type="radio" name="promoted"checked >No</label>
+									<br>
+									<br>
+								<div class="form-group">
+									<label>Have you announced the event at a general meeting?</label>
+								</div>
+									<label class="radio-inline"><input type="radio" name="announced">Yes</label>
+									<label class="radio-inline"><input type="radio" name="announced"checked >No</label>
+								<br>
+								<br>
+								<br>
+	
+
+								
+								<button type="submit" class="btn btn-default">Submit</button>
+							</form>
                         </div>
                     </div>
                 </div>
