@@ -37,6 +37,8 @@ function myFunction(x) {
         }
         $('.navbar-expand-lg').addClass("sticky");
         $('#wrapper').addClass("sticky-offset");
+        $('#sidebar-img').addClass("hide-logo");
+        $('.sidebar-nav').addClass("hide-padding");
  
     } else {
         // slide out
@@ -49,6 +51,8 @@ function myFunction(x) {
         $('#sidebar-wrapper').addClass("sidebar-out");
         $('.navbar-expand-lg').removeClass("sticky"); 
         $('#wrapper').removeClass("sticky-offset");
+        $('#sidebar-img').removeClass("hide-logo");
+        $('.sidebar-nav').removeClass("hide-padding");
 
     }
 }
