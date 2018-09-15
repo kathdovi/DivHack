@@ -108,3 +108,9 @@
 .fas {
     text-align: left;
 }
+
+.navbar-toggle.navbar-left {
+  float: left;
+  margin-left: 10px;
+  transition: all 0.4s ease 0s;
+}
