@@ -35,6 +35,9 @@ function myFunction(x) {
         if (sidebar.hasClass('sidebar-out')) {
             $('#sidebar-wrapper').removeClass("sidebar-out");
         }
+        $('.navbar-expand-lg').addClass("sticky");
+        $('#wrapper').addClass("sticky-offset");
+ 
     } else {
         // slide out
         $('#wrapper').css({ "padding-left": "250px" })
@@ -44,6 +47,9 @@ function myFunction(x) {
             "transition": "all 0.4s ease 0s",
         });
         $('#sidebar-wrapper').addClass("sidebar-out");
+        $('.navbar-expand-lg').removeClass("sticky"); 
+        $('#wrapper').removeClass("sticky-offset");
+
     }
 }
 
