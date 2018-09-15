@@ -30,7 +30,7 @@
   margin-left: -250px;
   left: 250px;
   width: 250px;
-  background: #CCCCCC;
+  background-color: #f9f9f9;
   position: fixed;
   height: 110%;
   overflow-y: auto;
@@ -128,4 +128,4 @@
 }
 
 .hide-padding {
-    padding-top: 10px !important;
+    padding-top: 15px !important;
