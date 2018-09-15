@@ -10,14 +10,14 @@
 }
 
 .navbar {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: pink;
 }
 
 
 .navbar-expand-lg {
-    margin-top: -100px;
+    margin-top: -70px;
     transition: all 0.4s ease 0s;
 }
 
@@ -120,5 +120,5 @@
 }
 
 .sticky-offset {
-    padding-top: 100px !important;
+    padding-top: 70px !important;
 }
