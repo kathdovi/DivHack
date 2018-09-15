@@ -1,5 +1,5 @@
 body {
-    font-family: 'helvetica', sans-serif;
+    font-family: 'helvetica', 'arial', sans-serif;
 }
 .page-content {
     background-image: url(../imgs/divbackground.jpg);
@@ -48,9 +48,8 @@ body {
 .sidebar-nav {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  line-height: 50px;
+  line-height: 70px;
   padding-top: 110px;
-  padding-left: 10px;
   position: absolute;
   top: 0;
   width: 250px;
@@ -142,3 +141,11 @@ body {
 .navbar {
     background-color: #ffffff;
 }
+
+a {
+    color: black;
+}
+li:hover {
+    background-color: black;
+}
+li:hover a {color: white;}
