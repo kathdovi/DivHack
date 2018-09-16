@@ -6,15 +6,15 @@
 
 ### Event Planning
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam orci purus, accumsan commodo maximus ultrices, pellentesque in odio. Proin tristique diam eu tincidunt porttitor. Maecenas rhoncus consectetur auctor. Pellentesque dictum in ex sed porta. Quisque sollicitudin mattis odio et sagittis. In bibendum feugiat velit, sit amet viverra leo. Quisque vel molestie odio. Vestibulum sit amet aliquam ipsum. In hac habitasse platea dictumst.
+(org)anize allows officers to plan and track events easily. Each event is created on the Event Planner page, and then the information is stored and used to automatically generate a checklist for officers to see easily and clearly what they have done and what there is left to do. The prompts help eliminate problems of overlooking or forgetting to consider certain tasks, and the checklist feature ensures that the tasks get done. These events are also sent to the home page, where the main dashboard keeps track of them and displays them to the user upon log-in.
 
-### Second Feature
+### Membership List
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam orci purus, accumsan commodo maximus ultrices, pellentesque in odio. Proin tristique diam eu tincidunt porttitor. Maecenas rhoncus consectetur auctor. Pellentesque dictum in ex sed porta. Quisque sollicitudin mattis odio et sagittis. In bibendum feugiat velit, sit amet viverra leo. Quisque vel molestie odio. Vestibulum sit amet aliquam ipsum. In hac habitasse platea dictumst.
+A future feature that will be implemented is an automatically generated membership list. This will be created when members create an account with (org)anize, and the new members will be displayed to the officers so that they are able to welcome each of their new members personally. This also eliminates the problem of manual database entry of membership lists.
 
-### Third Feature
+### Tabling Support
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam orci purus, accumsan commodo maximus ultrices, pellentesque in odio. Proin tristique diam eu tincidunt porttitor. Maecenas rhoncus consectetur auctor. Pellentesque dictum in ex sed porta. Quisque sollicitudin mattis odio et sagittis. In bibendum feugiat velit, sit amet viverra leo. Quisque vel molestie odio. Vestibulum sit amet aliquam ipsum. In hac habitasse platea dictumst.
+Tabling schedules will also be implemented into (org)anize. This will allow officers to easily view which slots still need sign-ups and the members that have signed up for each time slot. Members and officers will be able to sign up for these slots, and they will be able to view their sign-ups on their home dashboard. Additonally, the tabling feature can also be modified for more broad purposes for other organizations that need sign-up features for other tasks.
 
 ## Another Point
 
