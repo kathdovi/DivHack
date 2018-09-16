@@ -1,13 +1,13 @@
 (function eventWrapper($) {
 
     function createEvent() {
-        var formData = $("#my-form :input");
+        var formData = $("#my-form");
         alert(formData)
         
-        // var values = {};
-        // $.each($('#my-form').serializeArray(), function(i, field) {
-        //     values[field.name] = field.value;
-        // });
+        var values = {};
+        $.each($('#my-form').serializeArray(), function(i, field) {
+            values[field.name] = field.value;
+        });
 
         $.ajax({
             method: 'POST',
