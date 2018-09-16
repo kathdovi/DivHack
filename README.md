@@ -29,7 +29,7 @@ Tabling schedules will also be implemented into (org)anize. This will allow offi
 * [Bootstrap](https://getbootstrap.com/) - Front-end library
 * [jQuery](https://jquery.com/) - Javascript library
 * [DynamoDB](https://aws.amazon.com/dynamodb/) - Database
-* [Other Things](#) - Description
+* [Amazon Web Services](https://aws.amazon.com/) - Hosting
 
 ## Authors
 
