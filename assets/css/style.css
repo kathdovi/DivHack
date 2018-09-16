@@ -6,10 +6,18 @@ body {
     background-attachment: fixed;
 }
 .box.events {
-    background-color: rgba(253, 250, 250, 0.9);
+    background-color: rgba(253, 250, 250, 0.90);
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
+
+.box.form-box {
+    padding: 10px 20px 50px 20px;
+    background-color: rgba(253, 250, 250, 0.90);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
 .buffer {
     height: 30px;
 }

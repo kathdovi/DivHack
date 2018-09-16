@@ -13,55 +13,55 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Event Planner</title>
+    <title>Checklist</title>
 </head>
 
 <body>
 
-    <div class="header">
-        <h1>(org)anizer</h1>
-    </div>
-
+    <nav class="navbar navbar-left navbar-expand-lg navbar-light navbar-fixed-top">
+        <button class="pull-left navbar-left navbar-toggler" type="button">
+            <span class="navbar-toggler-icon"></span></button>
+        <a class="navbar-brand" href="index.html"><img id="topbar-img" src="assets/imgs/logoshort.png" /></a>
+    </nav>
     <div id="wrapper">
         <div id="sidebar-wrapper">
+            <div id="sidebar-logo">
+                <img id="sidebar-img" src="assets/imgs/logo.png" />
+            </div>
             <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="index.html">Home</a></li>
-                <li><a href="#">About Org</a></li>
-                <br>
-                <li><a href="form.html">Event Planner</a></li>
-                <li><a href="#">Orientation</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Constitution</a></li>
-                <li><a href="#">Tabling</a></li>
-                <li><a href="#">Caucuses</a></li>
-                <li><a href="#">Membership</a></li>
+                <li class="sidebar-brand"><a href="index.html">&nbsp;&nbsp;Home</a></li>
+                <li><a href="form.html">&nbsp;&nbsp;Event Planner</a></li>
+                <li><a href="orientationform.html">&nbsp;&nbsp;Orientation</a></li>
+                <li><a href="checklist.html">&nbsp;&nbsp;Checklist</a></li>
+                <li><a href="constitution.html">&nbsp;&nbsp;Constitution</a></li>
+                <li><a href="tabling.html">&nbsp;&nbsp;Tabling</a></li>
+                <li><a href="#">&nbsp;&nbsp;Caucuses</a></li>
+                <li><a href="#">&nbsp;&nbsp;Membership</a></li>
             </ul>
         </div>
         <div id="page-content-wrapper">
             <div class="page-content">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
-                            <form action="/action_page.php">
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<h1>Event Planner Checklist</h1>
-								<br>
-								<h3>Tackle these action items as a team or assign them to an officer to help make your event successful!</h3>
-								<br>
-								<br>
-								<!-- connect to backend -->
-								<div class="checkbox">
-									<label><input type="checkbox"> to do item goes here</label>
-								</div>
-																
-								<!-- a reload button would be cool to remove checked items -->
-								<label><input type="button" class="btn btn-default" value="Refresh Page" onClick="window.location.reload()"></label>
-							</form>
+                        <div class="col-md-12 main-content">
+                            <div class="box events rounded">
+                                <form action="/action_page.php">
+                                    <h1 class="headline">Event Planner Checklist</h1>
+                                    <br>
+                                    <h3 class="subhead">Tackle these action items as a team or assign them to an officer to help make your
+                                        event successful!
+                                    </h3>
+                                    <br>
+                                    <br>
+                                    <!-- connect to backend -->
+                                    <div class="checkbox">
+                                        <label><input type="checkbox"> to do item goes here</label>
+                                    </div>
+
+                                    <!-- a reload button would be cool to remove checked items -->
+                                    <label><input type="button" class="btn btn-default" value="Refresh Page" onClick="window.location.reload()"></label>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
