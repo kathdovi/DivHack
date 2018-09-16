@@ -34,7 +34,7 @@ Tabling schedules will also be implemented into (org)anize. This will allow offi
 ## Authors
 
 * **Nicole Holm** - *Database Integration* - [niholm](https://github.com/niholm)
-* **Kathleen Doviken** - *Front-End Template & Styling* - [kathdovi](https://github.com/kathdovi)
+* **Kathleen Doviken** - *Front-End Design Implementation & Styling* - [kathdovi](https://github.com/kathdovi)
 * **Audrey McNay** - *Designer* - [imthereal](https://github.com/imthereal)
 * **Allie Runas** - *Front-End Content Development* - [lionlikes](https://github.com/lionlikes)
 * **Andrew Kim** - *Front-End Content Development* - [enperry](https://github.com/enperry)
