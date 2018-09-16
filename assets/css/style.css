@@ -182,3 +182,13 @@ body {
 }
 
 .sidebar-nav li:hover a {color: white;}
+
+.checkbox {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.checklist-button {
+    margin-left: 10px;
+    margin-top: 10px;
+}
