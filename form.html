@@ -8,7 +8,7 @@
 
     <script src="assets/js/vendor/jquery-3.1.0.js"></script>
     <script src="assets/js/config.js"></script>
-<!--     <script src="assets/js/event.js"></script> -->
+    <script src="assets/js/event.js"></script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
@@ -46,7 +46,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 main-content box events rounded">
-                            <form id="formid" method="POST" action="https://bllvi5u5fc.execute-api.us-east-1.amazonaws.com/prod/event">
+                            <form id="formid">
 								<br>
 								<br>
 								<br>
@@ -175,40 +175,9 @@
 									<label class="radio-inline"><input type="radio" name="announced"checked >No</label>
 								<br>
 								<br>
-								<br>
-	
-
-								
-								<button id="submit" class="btn btn-default" onclick="submitform()">Submit</button>
+								<br>						
+								<button id="submit" class="btn btn-default">Submit</button>
 							</form>
-							<script type="text/javascript">
-    							function submitform(){
-	        						alert("Sending Json");
-	        						var formData = JSON.stringify($("#formid").serializeArray());
-	        						alert(formData);
-	        						$.ajax({
-									  type: "POST",
-									  url: "https://bllvi5u5fc.execute-api.us-east-1.amazonaws.com/prod/event",
-									  data: formData,
-									  success: completeRequest,
-									  dataType: "json",
-									  contentType : "application/json",
-									  error: function ajaxError(jqXHR, textStatus, errorThrown) {
-							                alert('Error creating event: ', textStatus, ', Details: ', errorThrown);
-							                alert('Response: ', jqXHR.responseText);
-							                alert('An error occured when creating event:\n' + jqXHR.responseText);
-							            }
-									});
-        						}
-
-        						function completeRequest(result) {
-							        var event;
-							        alert('Response received from API: ', result);
-							        event = result.Event;
-							        alert(event);
-							     
-							    }
-        					</script>
                         </div>
                     </div>
                 </div>
