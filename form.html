@@ -2,198 +2,194 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Event Planner</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>Event Planner</title>
 </head>
 
 <body>
 
-    <div class="header">
-        <h1>(org)anizer</h1>
-    </div>
+	<body>
+		<nav class="navbar navbar-left navbar-expand-lg navbar-light navbar-fixed-top">
+			<button class="pull-left navbar-left navbar-toggler" type="button">
+				<span class="navbar-toggler-icon"></span></button>
+			<a class="navbar-brand" href="#"><img id="topbar-img" src="assets/imgs/logoshort.png" /></a>
+		</nav>
+		<div id="wrapper">
+			<div id="sidebar-wrapper">
+				<div id="sidebar-logo">
+					<img id="sidebar-img" src="assets/imgs/logo.png" />
+				</div>
+				<ul class="sidebar-nav">
+					<li class="sidebar-brand"><a href="index.html">&nbsp;&nbsp;Home</a></li>
+					<li><a href="form.html">&nbsp;&nbsp;Event Planner</a></li>
+					<li><a href="orientationform.html">&nbsp;&nbsp;Orientation</a></li>
+					<li><a href="#">&nbsp;&nbsp;Events</a></li>
+					<li><a href="constitution.html">&nbsp;&nbsp;Constitution</a></li>
+					<li><a href="tabling.html">&nbsp;&nbsp;Tabling</a></li>
+					<li><a href="#">&nbsp;&nbsp;Caucuses</a></li>
+					<li><a href="#">&nbsp;&nbsp;Membership</a></li>
+				</ul>
+			</div>
+			<div id="page-content-wrapper">
+				<div class="page-content">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 main-content">
+								<div class="box form-box rounded">
+									<form action="/action_page.php">
+										<h1 class="headline">Event Planner</h1>
+										<br>
+										<h3 class="subhead">Use this form to help plan an event and remind you of important action items. Don't worry if you have to check
+											"no" or leave something blank!</h3>
+										<br>
+										<br>
+										<div class="form-group">
+											<label for="event-title">Event Title:</label>
+											<input type="text" class="form-control" id="event-title">
+										</div>
+										<br>
+										<div class="form-group">
+											<label for="date">Date:</label>
+											<input type="date" class="form-control" id="date">
+										</div>
+										<br>
+										<div class="form-group">
+											<label for="time">Time:</label>
+											<input type="time" class="form-control" id="time">
+										</div>
+										<br>
+										<div class="form-group">
+											<label for="email">Contact:</label>
+											<input type="email" class="form-control" id="email">
+										</div>
+										<br>
+										<div class="form-group">
+											<label for="location">Location:</label>
+											<input type="text" class="form-control" id="location">
+										</div>
+										<br>
+										<div class="form-group">
+											<label for="event-description">Event Description:</label>
+											<input type="text" class="form-control" id="event-description">
+										</div>
 
-    <div id="wrapper">
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="index.html">Home</a></li>
-                <li><a href="#">About Org</a></li>
-                <br>
-                <li><a href="form.html">  Event Planner</a></li>
-                <li><a href="#">  Orientation</a></li>
-                <li><a href="#">  Events</a></li>
-                <li><a href="#">  Constitution</a></li>
-                <li><a href="#">  Tabling</a></li>
-                <li><a href="#">  Caucuses</a></li>
-                <li><a href="#">  Membership</a></li>
-            </ul>
-        </div>
-        <div id="page-content-wrapper">
-            <div class="page-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <form action="/action_page.php">
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<h1>Event Planner</h1>
-								<br>
-								<h3>Use this form to help plan an event and remind you of important action items. Don't worry if you have to check "no" or leave something blank!</h3>
-								<br>
-								<br>
-								<div class="form-group">
-									<label for="event-title">Event Title:</label>
-									<input type="text" class="form-control" id="event-title">
+										<br>
+										<div class="form-group">
+											<label for="transit-option">How are we getting there?</label>
+											<select class="form-control" id="transit-option">
+												<option value="on-campus">On/Near Campus</option>
+												<option value="walking">Walking </option>
+												<option value="public-transit">Public Transit</option>
+												<option value="carpool">Carpool</option>
+											</select>
+										</div>
+										<br>
+										<div class="form-group">
+											<label>Have you organized transit for the event?</label>
+										</div>
+										<label class="radio-inline"><input type="radio" name="transit-organized">Yes</label>
+										<label class="radio-inline"><input type="radio" name="transit-organized" checked>No</label>
+										<br>
+										<br>
+										<div class="form-group">
+											<label>Is this event accessible?</label>
+										</div>
+										<label class="radio-inline"><input type="radio" name="accessible">Yes</label>
+										<label class="radio-inline"><input type="radio" name="accessible" checked>No</label>
+										<br>
+										<br>
+										<div class="form-group">
+											<label for="gn-bathroom">Where is the closest gender-neutral bathroom?</label>
+											<input type="text" class="form-control" id="gn-bathroom">
+										</div>
+										<br>
+										<div class="form-group">
+											<label for="accessability-roadblock">If this event is not accessible, what are the roadblocks?</label>
+											<input type="text" class="form-control" id="accessability-roadblock">
+										</div>
+										<br>
+										<div class="form-group">
+											<label for="event-cost">How much does it cost to participate in the event?</label>
+											<input type="text" class="form-control" id="event-cost">
+										</div>
+										<br>
+										<div class="form-group">
+											<label>Are we providing food as an org?</label>
+										</div>
+										<label class="radio-inline"><input type="radio" name="food">Yes</label>
+										<label class="radio-inline"><input type="radio" name="food" checked>No</label>
+										<br>
+										<br>
+										<div class="form-group">
+											<label>Does anyone in the org have a dietary restriction?</label>
+										</div>
+										<label class="radio-inline"><input type="radio" name="dietary-restriction">Yes</label>
+										<label class="radio-inline"><input type="radio" name="dietary-restriction" checked>No</label>
+										<br>
+										<br>
+										<div class="form-group">
+											<label>Does anyone in the org have a food allergy?</label>
+										</div>
+										<label class="radio-inline"><input type="radio" name="food-allergy">Yes</label>
+										<label class="radio-inline"><input type="radio" name="food-allergy" checked>No</label>
+										<br>
+										<br>
+										<div class="form-group">
+											<label for="members-dietary-restrictions">Which members have allergies or restrictions?</label>
+											<input type="text" class="form-control" id="members-dietary-restrictions">
+										</div>
+										<br>
+										<div class="form-group">
+											<label>Have you addressed options for people with food restrictions?</label>
+										</div>
+										<label class="radio-inline"><input type="radio" name="addressed-food">Yes</label>
+										<label class="radio-inline"><input type="radio" name="addressed-food" checked>No</label>
+										<br>
+										<br>
+										<div class="form-group">
+											<label>Have you promoted the event on Facebook yet?</label>
+										</div>
+										<label class="radio-inline"><input type="radio" name="promoted">Yes</label>
+										<label class="radio-inline"><input type="radio" name="promoted" checked>No</label>
+										<br>
+										<br>
+										<div class="form-group">
+											<label>Have you announced the event at a general meeting?</label>
+										</div>
+										<label class="radio-inline"><input type="radio" name="announced">Yes</label>
+										<label class="radio-inline"><input type="radio" name="announced" checked>No</label>
+										<br>
+										<br>
+										<button type="submit" class="btn btn-default">Submit</button>
+									</form>
 								</div>
-								<br>
-								<div class="form-group">
-									<label for="date">Date:</label>
-									<input type="date" class="form-control" id="date">
-								</div>
-								<br>
-								<div class="form-group">
-									<label for="time">Time:</label>
-									<input type="time" class="form-control" id="time">
-								</div>
-								<br>
-								<div class="form-group">
-									<label for="email">Contact:</label>
-									<input type="email" class="form-control" id="email">
-								</div>
-								<br>
-								<div class="form-group">
-									<label for="location">Location:</label>
-									<input type="text" class="form-control" id="location">
-								</div>
-								<br>
-								<div class="form-group">
-									<label for="event-description">Event Description:</label>
-									<input type="text" class="form-control" id="event-description">
-								</div>
-
-								<br>
-								<div class="form-group">
-								  <label for="transit-option">How are we getting there?</label>
-									<select class = "form-control" id="transit-option">
-										<option value="on-campus">On/Near Campus</option>
-										<option value="walking">Walking </option>
-										<option value="public-transit">Public Transit</option>
-										<option value="carpool">Carpool</option>
-									</select>
-								</div>
-								<br>
-								<div class="form-group">
-									<label>Have you organized transit for the event?</label>
-								</div>
-									<label class="radio-inline"><input type="radio" name="transit-organized">Yes</label>
-								<label class="radio-inline"><input type="radio" name="transit-organized"checked >No</label>
-									<br>
-									<br>
-								<div class="form-group">
-									<label>Is this event accessible?</label>
-								</div>
-									<label class="radio-inline"><input type="radio" name="accessible">Yes</label>
-								<label class="radio-inline"><input type="radio" name="accessible"checked >No</label>
-									<br>
-									<br>
-								<div class="form-group">
-									<label for="gn-bathroom">Where is the closest gender-neutral bathroom?</label>
-									<input type="text" class="form-control" id="gn-bathroom">
-								</div>
-								<br>
-								<div class="form-group">
-									<label for="accessability-roadblock">If this event is not accessible, what are the roadblocks?</label>
-									<input type="text" class="form-control" id="accessability-roadblock">
-								</div>
-								<br>
-								<div class="form-group">
-									<label for="event-cost">How much does it cost to participate in the event?</label>
-									<input type="text" class="form-control" id="event-cost">
-								</div>
-								<br>
-								<div class="form-group">
-									<label>Are we providing food as an org?</label>
-								</div>
-									<label class="radio-inline"><input type="radio" name="food">Yes</label>
-								<label class="radio-inline"><input type="radio" name="food"checked >No</label>
-								<br>
-								<br>
-								<div class="form-group">
-									<label>Does anyone in the org have a dietary restriction?</label>
-								</div>
-									<label class="radio-inline"><input type="radio" name="dietary-restriction">Yes</label>
-								<label class="radio-inline"><input type="radio" name="dietary-restriction"checked >No</label> 
-									<br>
-									<br>
-								<div class="form-group">
-									<label>Does anyone in the org have a food allergy?</label>
-								</div>
-									<label class="radio-inline"><input type="radio" name="food-allergy">Yes</label>
-									<label class="radio-inline"><input type="radio" name="food-allergy"checked >No</label>
-								<br>
-								<br>
-								<div class="form-group">
-									<label for="members-dietary-restrictions">Which members have allergies or restrictions?</label>
-									<input type="text" class="form-control" id="members-dietary-restrictions">
-								</div>
-								<br>
-								<div class="form-group">
-									<label>Have you addressed options for people with food restrictions?</label>
-								</div>
-									<label class="radio-inline"><input type="radio" name="addressed-food">Yes</label>
-									<label class="radio-inline"><input type="radio" name="addressed-food"checked >No</label>
-								<br>
-								<br>
-								<div class="form-group">
-									<label>Have you promoted the event on Facebook yet?</label>
-								</div>
-									<label class="radio-inline"><input type="radio" name="promoted">Yes</label>
-									<label class="radio-inline"><input type="radio" name="promoted"checked >No</label>
-									<br>
-									<br>
-								<div class="form-group">
-									<label>Have you announced the event at a general meeting?</label>
-								</div>
-									<label class="radio-inline"><input type="radio" name="announced">Yes</label>
-									<label class="radio-inline"><input type="radio" name="announced"checked >No</label>
-								<br>
-								<br>
-								<br>
-	
-
-								
-								<button type="submit" class="btn btn-default">Submit</button>
-							</form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-    <script src="assets/js/main.js"></script>
-</body>
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		 crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		 crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+		 crossorigin="anonymous"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
 
 </html>
