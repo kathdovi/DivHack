@@ -1,9 +1,18 @@
+html {
+  height: 100vh;
+}
+
 body {
+    height: 100vh;
     font-family: 'helvetica', 'arial', sans-serif;
+}
+#wrapper {
+    min-height: 100vh;
 }
 .page-content {
     background-image: url(../imgs/divbackground.jpg);
     background-attachment: fixed;
+    min-height: 100vh;
 }
 .box.events {
     background-color: rgba(253, 250, 250, 0.90);
@@ -173,3 +182,13 @@ body {
 }
 
 .sidebar-nav li:hover a {color: white;}
+
+.checkbox {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.checklist-button {
+    margin-left: 10px;
+    margin-top: 10px;
+}
