@@ -20,9 +20,9 @@ A future feature that will be implemented is an automatically generated membersh
 
 Tabling schedules will also be implemented into (org)anize. This will allow officers to easily view which slots still need sign-ups and the members that have signed up for each time slot. Members and officers will be able to sign up for these slots, and they will be able to view their sign-ups on their home dashboard. Additonally, the tabling feature can also be modified for more broad purposes for other organizations that need sign-up features for other tasks.
 
-## Another Point
+## Design
 
-Nullam sed velit vulputate turpis efficitur viverra. Vivamus ut est varius, tempus nulla ut, tempus ipsum. Duis posuere urna vitae molestie semper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Cras euismod sapien odio, ut tempor mi malesuada ut. Maecenas tincidunt vel purus ac accumsan. Aenean feugiat mollis quam, vitae tempor lorem tristique id. In in erat tincidunt, luctus mauris ut, venenatis arcu. Sed consequat eget velit eu molestie. Sed euismod felis sed quam vulputate scelerisque. In lobortis venenatis leo et tristique.
+(org)anize was designed with accessibility in mind. The design features high contrast for those with colorblindness, and the interface is clean and minimalistic so that it can be read by screenreaders. The simple, intuitive UI harkens back to the heart of the project, which is focused on decluttering and organizing student organizations. The application also dynamically responds to screen width, changing the design from a sidebar to a topbar with a dropdown menu, and is mobile friendly. 
 
 ## Built With
 
