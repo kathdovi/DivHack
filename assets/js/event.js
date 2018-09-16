@@ -16,6 +16,7 @@ $(document).ready(function(){
             contentType: 'application/json',
             success: function completeRequest(result) {
                 console.log('we good');
+                window.location='index.html'
             },
             error: function ajaxError(jqXHR, textStatus, errorThrown) {
                 console.error('Error creating event: ', textStatus, ', Details: ', errorThrown);
