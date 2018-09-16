@@ -2,6 +2,10 @@
 
 (org)anize is a tool for student organizations to take away some of the headache from club logistics so that officers and members can focus on the important aspects of organization and ensuring good member experience.
 
+## Inspiration
+
+We were inspired to create this application because of the lack of solutions for student organizations to manage their organizations in once place. UT provides student organizations with [HornsLink](https://utexas.campuslabs.com/engage/), which provides support only for member lists and basic event creation. Organizations typically find their own solutions to this problem by using technologies such as Google Drive to store their information, but there is no widely used all-in-one organization management tool.
+
 ## Features
 
 ### Event Planning
@@ -19,10 +23,6 @@ Tabling schedules will also be implemented into (org)anize. This will allow offi
 ## Another Point
 
 Nullam sed velit vulputate turpis efficitur viverra. Vivamus ut est varius, tempus nulla ut, tempus ipsum. Duis posuere urna vitae molestie semper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Cras euismod sapien odio, ut tempor mi malesuada ut. Maecenas tincidunt vel purus ac accumsan. Aenean feugiat mollis quam, vitae tempor lorem tristique id. In in erat tincidunt, luctus mauris ut, venenatis arcu. Sed consequat eget velit eu molestie. Sed euismod felis sed quam vulputate scelerisque. In lobortis venenatis leo et tristique.
-
-## And Another
-
-Curabitur sed consectetur metus. Fusce bibendum varius nisl, et interdum felis semper sed. Nulla efficitur mi dignissim tortor sollicitudin dapibus ut sed leo. Vivamus nec enim vel nisi maximus condimentum. Etiam nec suscipit diam. Sed auctor scelerisque pellentesque. Mauris eleifend ante et volutpat hendrerit. Ut consequat placerat felis id iaculis. Aenean viverra dapibus est ac tincidunt. In eget molestie enim. Vestibulum ut eleifend velit. Vivamus dapibus sed nisl vel volutpat. Nunc vel rhoncus enim, sed vulputate dolor. Curabitur lacinia nibh ac suscipit facilisis. Vivamus sit amet bibendum justo.
 
 ## Built With
 
@@ -43,5 +43,3 @@ Curabitur sed consectetur metus. Fusce bibendum varius nisl, et interdum felis s
 ## Acknowledgments
 
 * Thanks to Women Who Code for hosting DivHack!
-* Inspiration
-* etc
