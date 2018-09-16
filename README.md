@@ -2,7 +2,17 @@
 
 (org)anize is a tool for student organizations to take away some of the headache from club logistics so that officers and members can focus on the important aspects of organization and ensuring good member experience.
 
-## Subhead
+## Features
+
+### Event Planning
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam orci purus, accumsan commodo maximus ultrices, pellentesque in odio. Proin tristique diam eu tincidunt porttitor. Maecenas rhoncus consectetur auctor. Pellentesque dictum in ex sed porta. Quisque sollicitudin mattis odio et sagittis. In bibendum feugiat velit, sit amet viverra leo. Quisque vel molestie odio. Vestibulum sit amet aliquam ipsum. In hac habitasse platea dictumst.
+
+### Second Feature
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam orci purus, accumsan commodo maximus ultrices, pellentesque in odio. Proin tristique diam eu tincidunt porttitor. Maecenas rhoncus consectetur auctor. Pellentesque dictum in ex sed porta. Quisque sollicitudin mattis odio et sagittis. In bibendum feugiat velit, sit amet viverra leo. Quisque vel molestie odio. Vestibulum sit amet aliquam ipsum. In hac habitasse platea dictumst.
+
+### Third Feature
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam orci purus, accumsan commodo maximus ultrices, pellentesque in odio. Proin tristique diam eu tincidunt porttitor. Maecenas rhoncus consectetur auctor. Pellentesque dictum in ex sed porta. Quisque sollicitudin mattis odio et sagittis. In bibendum feugiat velit, sit amet viverra leo. Quisque vel molestie odio. Vestibulum sit amet aliquam ipsum. In hac habitasse platea dictumst.
 
