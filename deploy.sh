@@ -15,6 +15,11 @@ do
     esthree put $f s3://organize-web/assets/css/
 done
 
+for f in assets/imgs/*
+do
+    esthree put $f s3://organize-web/assets/imgs/
+done
+
 for f in assets/js/*.js
 do
     esthree put $f s3://organize-web/assets/js/
